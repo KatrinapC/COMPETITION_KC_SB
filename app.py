@@ -22,7 +22,6 @@ def sarah():
     return render_template('sarah.html')
 
 
-
 # run the app with debug mode on if name = __main__  (the __Main__ is a convention)
 if __name__ == '__main__':
     app.run(debug=True)
