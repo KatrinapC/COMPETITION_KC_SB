@@ -1,9 +1,11 @@
 body {
+  background-color: #484F64;
 }
 
 .container {
-    max-width: 700px;
-    }
+  background-color: #858798;
+  max-width: 700px;
+  }
 
 .responsive-img {
   width: 100%;
