@@ -13,9 +13,15 @@ def home():
 def katrina():
     return render_template('katrina.html')
 
+@app.route('/keepintouch')
+def keepintouch():
+    return render_template('keepintouch.html')
+
 @app.route('/sarah')
 def sarah():
     return render_template('sarah.html')
+
+
 
 # run the app with debug mode on if name = __main__  (the __Main__ is a convention)
 if __name__ == '__main__':

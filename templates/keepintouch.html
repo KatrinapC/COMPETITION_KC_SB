@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarah Butterworth | PhD People</title>
+</head>
+<body>
+    {% extends "layout.html" %}
+    {% block content %}
+    <div>
+        <h1>Keep in Touch</h1>
+        <p>Sign up for our monthly email to learn more about our research.</p>
+        <div id="contact-form">
+          <form method="post" action="/signup">
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" required="required">
+            <input type="submit" value="Submit" id="submit-button">
+          </form>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>
