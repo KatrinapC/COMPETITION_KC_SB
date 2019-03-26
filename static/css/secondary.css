@@ -1,9 +1,20 @@
 body {
+  background: url("/static/images/svg-patterns-1.png");
+  background-color: #303542;
+}
+
+h1 {
+    font-color: #A94B36;
+    }
+
+h2 {
+font: #CAA455;
 }
 
 .container {
-    max-width: 700px;
-    }
+  background-color: rgba(160, 166, 154, 1);
+  max-width: 75%;
+  }
 
 .responsive-img {
   width: 100%;
