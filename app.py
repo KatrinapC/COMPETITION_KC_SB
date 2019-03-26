@@ -21,6 +21,9 @@ def keepintouch():
 def sarah():
     return render_template('sarah.html')
 
+@app.route('/ouradventures')
+def ouradventures():
+    return render_template('ouradventures.html')
 
 # run the app with debug mode on if name = __main__  (the __Main__ is a convention)
 if __name__ == '__main__':
