@@ -31,6 +31,14 @@ h3{
   color: #303542;
 }
 
+p{
+  color: #303542;
+}
+
+plaintext{
+  color: #303542;
+}
+
 a {
   color: #A94B36;
   text-decoration: none;
@@ -46,6 +54,10 @@ input{
   background: rgba(250, 250, 249, 0.5);
   border: 1px solid #303542;
   border-radius: 0.25rem;
+}
+
+input:active{
+  border: 2px solid #303542;
 }
 
 .h1line{
@@ -126,6 +138,13 @@ input{
           transform: translate(-50%,-50%);
 }
 
+.profile{
+  max-height: 150px;
+  height: auto;
+  border-radius: 100%;
+  border: 5px solid #CAA455;
+}
+
 .row{
   align: center;
   left: 50%;
@@ -163,6 +182,8 @@ input{
 
 #full-height{
   height: 100%;
+  overflow: visible;
+  position: static;
 }
 
 #footer{
