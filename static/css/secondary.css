@@ -16,6 +16,10 @@ h2 {
     color: #CAA455;
     }
 
+article {
+    max-width: inherit;
+    }
+
 
 .container {
   background-color: rgba(160, 166, 154, 0.7);
@@ -28,10 +32,19 @@ h2 {
   height: auto;
 }
 
+.adventure-img {
+    max-width: 400px;
+    height: auto;
+    }
+
+.column {
+    max-width: 400px;
+    }
 
 .navbar-light .navbar-brand {
   color: rgba(202, 164, 85, 1);
   }
+
 
 #footer {
     position: fixed;
