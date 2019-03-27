@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/css/bootstrapKatrina.css">
     <link rel="stylesheet" href="styles/secondary.css">
     <title>PhD People</title>
+
 </head>
 <body>
     {% extends "layout.html" %}
@@ -13,8 +14,13 @@
     <div class="content">
         <h1>PhD People</h1>
         <p>Welcome to PhD People, where you can find out about us and our PhD research!</p>
+        <h2>Who are you?</h2>
+        <button name="username" onclick="visitorName()" class="btn-name">Give us your name!</button>
+        <p id="demo"></p>
+        <script language="javascript" type="text/javascript" src="/static/js/phdpeople.js"></script>
+
         <h2>Who would you like to learn about first?</h2>
-        <a href="katrina"><h1 class="name">Katrina</h2></a> <h3 class="h1line">or</h3> <a href="sarah"><h1 class="name">Sarah</h2></a>
+        <br><span><a href="katrina"><img src="https://media.licdn.com/dms/image/C4E03AQHIcIsG_6ZpqQ/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=bGc5uKT4NUQUi0Oxywr8In_4r-8WQKJiuYkuGu-Oub4" class="profile"></a> <h3 class="h1line"> - or - </h3> <a href="sarah"><img href="sarah" src="https://media.licdn.com/dms/image/C4E03AQFGCJZ-X2qv2Q/profile-displayphoto-shrink_800_800/0?e=1559174400&v=beta&t=Jhnlu3RPyHnmpB-K8mOSuj2lWpG399CVJ-7-2JnE3rE" class="profile"></a>
     </div>
     {% endblock %}
 </body>

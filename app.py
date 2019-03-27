@@ -1,5 +1,5 @@
 # import the flask module form the flask library
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 # assign name 'app' to flask app
 app = Flask(__name__)
@@ -8,6 +8,7 @@ app = Flask(__name__)
 @app.route('/home')
 def home():
     return render_template('home.html')
+
 
 @app.route('/katrina')
 def katrina():
