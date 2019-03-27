@@ -1,6 +1,7 @@
 header{
-  position: fixed;
+  position: sticky;
   top: 0;
+  align: center;
 }
 
 body{
@@ -9,13 +10,19 @@ body{
 }
 
 h1{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 60px;
-  color: #A94B36;
+  color: #303542;
 }
 
 h2{
-  color: #CAA455;
+  font-family: 'Shadows Into Light', cursive;
+  color: #303542;
+}
+
+h3{
+  font-family: 'Shadows Into Light', cursive;
+  color: #303542;
 }
 
 article{
@@ -41,8 +48,12 @@ article{
   border-color: rgba(48, 53, 66, 1);
 }
 
+.header{
+  background-color: rgba(160, 166, 154, 0.8);
+}
+
 .container{
-  background-color: rgba(160, 166, 154, 0.7);
+  background-color: rgba(160, 166, 154, 0.8);
   max-width: 75%;
   }
 
@@ -61,12 +72,114 @@ article{
   max-width: 400px;
 }
 
+.navbar{
+  background: rgba(160, 166, 154, 0.7)
+}
+
+.navbar-brand{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  color: rgba(100,151,177);
+}
+
 .navbar-light .navbar-brand{
-  color: rgba(202, 164, 85, 1);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+}
+
+.nav-item{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-link{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
 }
 
 
 #footer{
   position: fixed;
+  left: 0;
   bottom: 0;
+  width: 100%;
+  background: rgba(160, 166, 154, 0.8);
+}
+
+
+@media only screen and (max-device-width: 480px){
+  article {
+    width: 50%;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  form{
+    width: 90%;
+    align: center;
+  }
+
+  input[type=text] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+  border-radius: 15px;
+  }
+
+  .navbar-brand{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    color: rgba(100,151,177);
+  }
+
+  .navbar-light .navbar-brand{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+  }
+
+  .nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-link{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+  }
+
+  .photo{
+    max-width: 100px;
+    padding-top: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .text {
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Helvetica;
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+
 }
