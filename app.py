@@ -26,6 +26,10 @@ def sarah():
 def ouradventures():
     return render_template('ouradventures.html')
 
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
 # run the app with debug mode on if name = __main__  (the __Main__ is a convention)
 if __name__ == '__main__':
     app.run(debug=True)
