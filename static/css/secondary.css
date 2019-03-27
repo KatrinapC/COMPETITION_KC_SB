@@ -78,6 +78,16 @@ input:active{
   opacity: 0.7;
 }
 
+.btn-name{
+  background-color: rgba(48, 53, 66, 1);
+  color: #FAFAF9;
+  border-color: rgba(48, 53, 66, 1);
+  border-radius: 0.25em;
+  box-shadow: none;
+  padding: 5px;
+
+}
+
 .btn {
   background-color: rgba(48, 53, 66, 1);
   color: #FAFAF9;
@@ -126,6 +136,8 @@ input:active{
   width: 200px;
   height: 200px;
   overflow: hidden;
+  border: 5px solid #CAA455;
+  border-radius: 25px;
 }
 .crop img {
   position: absolute;
@@ -145,6 +157,13 @@ input:active{
   border: 5px solid #CAA455;
 }
 
+.profile:hover{
+  max-height: 200px;
+  height: auto;
+  border-radius: 100%;
+  border: 8px solid #CAA455;
+}
+
 .row{
   align: center;
   left: 50%;
@@ -152,6 +171,8 @@ input:active{
 }
 
 .column{
+  align: center;
+  left: 50%;
   max-width: 300px;
 }
 
