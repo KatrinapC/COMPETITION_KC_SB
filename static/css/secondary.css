@@ -126,6 +126,7 @@ input:active{
   width: 200px;
   height: 200px;
   overflow: hidden;
+  border: 5px solid #CAA455;
 }
 .crop img {
   position: absolute;
@@ -152,6 +153,8 @@ input:active{
 }
 
 .column{
+  align: center;
+  left: 50%;
   max-width: 300px;
 }
 
