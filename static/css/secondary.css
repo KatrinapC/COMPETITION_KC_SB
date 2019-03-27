@@ -4,15 +4,16 @@ body {
 }
 
 h1 {
-    font-color: #A94B36;
+    color: #A94B36;
     }
 
 h2 {
-font: #CAA455;
-}
+    color: #CAA455;
+    }
+
 
 .container {
-  background-color: rgba(160, 166, 154, 1);
+  background-color: rgba(160, 166, 154, 0.7);
   max-width: 75%;
   }
 
@@ -21,3 +22,7 @@ font: #CAA455;
   max-width: 100px;
   height: auto;
 }
+
+
+.navbar-light .navbar-brand {
+  color: rgba(202, 164, 85, 1);
