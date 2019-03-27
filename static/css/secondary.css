@@ -1,52 +1,52 @@
-header {
+header{
     position: fixed;
     top: 0;
     }
 
-body {
+body{
   background: url("/static/images/svg-patterns-1.png");
   background-color: #303542;
 }
 
-h1 {
+h1{
     color: #A94B36;
     }
 
-h2 {
+h2{
     color: #CAA455;
     }
 
-article {
+article{
     max-width: inherit;
     }
 
 
-.container {
+.container{
   background-color: rgba(160, 166, 154, 0.7);
   max-width: 75%;
   }
 
-.responsive-img {
+.responsive-img{
   width: 100%;
   max-width: 100px;
   height: auto;
 }
 
-.adventure-img {
+.adventure-img{
     max-width: 400px;
     height: auto;
     }
 
-.column {
+.column{
     max-width: 400px;
     }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand{
   color: rgba(202, 164, 85, 1);
   }
 
 
-#footer {
+#footer{
     position: fixed;
     bottom: 0;
     }
