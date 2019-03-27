@@ -1,3 +1,8 @@
+header {
+    position: fixed;
+    top: 0;
+    }
+
 body {
   background: url("/static/images/svg-patterns-1.png");
   background-color: #303542;
@@ -26,3 +31,9 @@ h2 {
 
 .navbar-light .navbar-brand {
   color: rgba(202, 164, 85, 1);
+  }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    }
