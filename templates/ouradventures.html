@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Our Adventures | PhD People</title>
-    </head>
-    <body>
-        {% extends "layout.html" %}
-        {% block content %}
-        <div>
-            <h1>Our Adventures</h1>
+  <head>
+    <meta charset="UTF-8">
+    <title>Our Adventures | PhD People</title>
+  </head>
+  <body>
+    {% extends "layout.html" %}
+    {% block content %}
+    <div>
+      <h1>Our Adventures</h1>
 
-            <!-- Portfolio Gallery Grid -->
-            <div class="row">
-              <div class="column">
-                  <img src="/static/images/hades.png" alt="Belgium" style="width:400px">
-                  <h3>Belgium</h3>
-                  <p>Exploring an underground research laboratory</p>
-              </div>
-                <div class="column">
-                    <img src="/static/images/goApe.jpg" alt="Go Ape" style="width:400px">
-                    <h3>Go Ape</h3>
-                    <p>On a training course Katrina got to go swinging from the trees in Delamere forest as a teambuilding exercise!</p>
-                </div>
-            </div>
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column">
+          <img src="/static/images/hades.png" alt="Belgium" style="width:400px">
+          <h3>Belgium</h3>
+          <p>Exploring an underground research laboratory</p>
         </div>
-        {% endblock %}
-    </body>
+        <div class="column">
+          <img src="/static/images/goApe.jpg" alt="Go Ape" style="width:400px">
+          <h3>Go Ape</h3>
+          <p>On a training course Katrina got to go swinging from the trees in Delamere forest as a teambuilding exercise!</p>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+  </body>
 </html>

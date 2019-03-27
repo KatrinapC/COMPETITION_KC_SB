@@ -1,7 +1,7 @@
 header{
-    position: fixed;
-    top: 0;
-    }
+  position: fixed;
+  top: 0;
+}
 
 body{
   background: url("/static/images/svg-patterns-1.png");
@@ -9,17 +9,37 @@ body{
 }
 
 h1{
-    color: #A94B36;
-    }
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  color: #A94B36;
+}
 
 h2{
-    color: #CAA455;
-    }
+  color: #CAA455;
+}
 
 article{
-    max-width: inherit;
-    }
+  max-width: inherit;
+}
 
+.btn {
+  color: rgba(169, 75, 54, 1);
+  border-color: rgba(169, 75, 54, 1)
+  color: #FAFAF9;
+}
+
+.btn-outline-success{
+  color: rgba(169, 75, 54);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgba(169, 75, 54);
+}
+
+.btn:hover {
+  background-color: rgba(48, 53, 66, 1);
+  color: white;
+  border-color: rgba(48, 53, 66, 1);
+}
 
 .container{
   background-color: rgba(160, 166, 154, 0.7);
@@ -33,20 +53,20 @@ article{
 }
 
 .adventure-img{
-    max-width: 400px;
-    height: auto;
-    }
+  max-width: 400px;
+  height: auto;
+}
 
 .column{
-    max-width: 400px;
-    }
+  max-width: 400px;
+}
 
 .navbar-light .navbar-brand{
   color: rgba(202, 164, 85, 1);
-  }
+}
 
 
 #footer{
-    position: fixed;
-    bottom: 0;
-    }
+  position: fixed;
+  bottom: 0;
+}
