@@ -1,3 +1,7 @@
+html, body{
+  height: 100%;
+}
+
 header{
   position: sticky;
   top: 0;
@@ -11,13 +15,15 @@ body{
 
 h1{
   font-family: 'Shadows Into Light', cursive;
-  font-size: 60px;
+  font-size: 80px;
   color: #303542;
+  padding: 10px;
 }
 
 h2{
   font-family: 'Shadows Into Light', cursive;
   color: #303542;
+  padding: 10px;
 }
 
 h3{
@@ -29,10 +35,20 @@ article{
   max-width: inherit;
 }
 
+a {
+  color: #A94B36;
+}
+
+input{
+  background: rgba(250, 250, 249, 0.5);
+  border: 1px solid #303542;
+  border-radius: 0.25rem;
+}
+
 .btn {
-  color: rgba(169, 75, 54, 1);
-  border-color: rgba(169, 75, 54, 1)
+  background-color: rgba(48, 53, 66, 1);
   color: #FAFAF9;
+  border-color: rgba(48, 53, 66, 1);
 }
 
 .btn-outline-success{
@@ -44,7 +60,7 @@ article{
 
 .btn:hover {
   background-color: rgba(48, 53, 66, 1);
-  color: white;
+  color: #FAFAF9;
   border-color: rgba(48, 53, 66, 1);
 }
 
@@ -53,6 +69,7 @@ article{
 }
 
 .container{
+  padding: 20px;
   background-color: rgba(160, 166, 154, 0.8);
   max-width: 75%;
   }
@@ -97,23 +114,23 @@ article{
   font-size: 30px;
 }
 
+#full-height{
+  height: 100%;
+}
 
 #footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background: rgba(160, 166, 154, 0.8);
+  background: rgba(160, 166, 154, 1);
 }
 
 
 @media only screen and (max-device-width: 480px){
-  article {
-    width: 50%;
-    position: relative;
-    float: left;
-    text-align: center;
-    padding-top: 20px;
+
+  h1{
+    font-size: 60px;
   }
 
   form{
@@ -128,6 +145,11 @@ article{
   border: none;
   background: white;
   border-radius: 15px;
+  }
+
+  .container{
+    max-width: 90%;
+    height: 100%;
   }
 
   .navbar-brand{
@@ -179,6 +201,10 @@ article{
     background-repeat: no-repeat;
     margin-left: 6px;
     margin-right: 6px;
+  }
+
+  #full-height{
+    height: 100%;
   }
 
 
